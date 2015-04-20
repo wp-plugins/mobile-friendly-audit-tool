@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: mobile-optimised google pagespeed insights api widget
 Requires at least: 4.1.1
 Tested up to: 4.1.1
-Stable tag: 4.1.1
+Stable tag: 
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,8 +20,6 @@ test for mobile friendliness, and the results are displayed below. This widget u
 The shortcode presents a basic HTML form that captures a URL. When the `Run Audit` button is pressed, the
 form is hidden, and the loading UI displayed. When the PageSpeed API call returns, the information is
 displayed in templated sections beneath.
-
----
 
 ##Usage
 Simply embed the shortcode `[mobile_audit_form]` into any post content area, or HTML/Text widget.
@@ -85,7 +83,7 @@ made to Google's API. Results are cached by page/url.
 == Installation ==
 
 ###Generate a Google Apps API key.
-
+---
 * Go to the [Google Developers Console](https://console.developers.google.com/).
 * Select a project, or create a new one.
 * In the sidebar on the left, expand APIs & auth. Next, click APIs. Select the Enabled APIs link in the API section
@@ -98,17 +96,17 @@ APIs. If you have not enabled it, select the API from the list of APIs, then sel
 ###Install the plugin
 
 ####From your WordPress dashboard
-
+---
 * Visit `Plugins > Add New`
 * Search for `Mobile Friendly Audit`
 * Activate `Mobile Friendly Audit` from your Plugins page.
 
-#####From WordPress.org
+####From WordPress.org
 * Download `Mobile Friendly Audit`.
 * Upload the `mobile-friendly-audit` directory to your `/wp-content/plugins/` directory, using your favorite method (ftp, sftp, scp, etc...)
 * Activate `Mobile Friendly Audit` from your Plugins page.
 
-#####From GitHub
+####From GitHub
 * Clone the git repository into your`/wp-content/plugins/` directory:
   - HTTPS: [https://github.com/onalldevices/wp-plugin-mobile-friendly-audit.git](https://github.com/onalldevices/wp-plugin-mobile-friendly-audit.git)
   - SSH: [git@github.com:onalldevices/wp-plugin-mobile-friendly-audit.git](git@github.com:onalldevices/wp-plugin-mobile-friendly-audit.git)
