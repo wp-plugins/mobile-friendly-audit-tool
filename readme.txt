@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: mobile-optimised google pagespeed insights api widget
 Requires at least: 4.1.1
 Tested up to: 4.1.1
-Stable tag: 
+Stable tag:
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,7 +83,7 @@ made to Google's API. Results are cached by page/url.
 == Installation ==
 
 ###Generate a Google Apps API key.
----
+
 * Go to the [Google Developers Console](https://console.developers.google.com/).
 * Select a project, or create a new one.
 * In the sidebar on the left, expand APIs & auth. Next, click APIs. Select the Enabled APIs link in the API section
@@ -96,7 +96,7 @@ APIs. If you have not enabled it, select the API from the list of APIs, then sel
 ###Install the plugin
 
 ####From your WordPress dashboard
----
+
 * Visit `Plugins > Add New`
 * Search for `Mobile Friendly Audit`
 * Activate `Mobile Friendly Audit` from your Plugins page.
