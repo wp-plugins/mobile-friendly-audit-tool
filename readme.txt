@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: mobile-optimised google pagespeed insights api widget
 Requires at least: 4.1.1
 Tested up to: 4.1.1
-Stable tag:
+Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -125,6 +125,9 @@ Yes. Be sure to keep to the general DOM hierarchy, and preserve any CSS classes 
 1. **Full screen results** - all report sections displayed.
 
 == Changelog ==
+
+= 1.1 =
+* Updated readme.txt and copied screenshot-1.png into /assets folder, instead of /trunk/assets.
 
 = 1.0 =
 * Initial plugin release
