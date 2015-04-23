@@ -3,7 +3,7 @@ Contributors: TheFoot
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9QPSR47GVX7C6
 Tags: mobile-optimised google pagespeed insights api widget
 Requires at least: 4.1.1
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
