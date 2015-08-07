@@ -3,8 +3,8 @@ Contributors: TheFoot
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9QPSR47GVX7C6
 Tags: mobile-optimised google pagespeed insights api widget
 Requires at least: 4.1.1
-Tested up to: 4.2
-Stable tag: 1.1
+Tested up to: 4.2.4
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,16 +21,16 @@ The shortcode presents a basic HTML form that captures a URL. When the `Run Audi
 form is hidden, and the loading UI displayed. When the PageSpeed API call returns, the information is
 displayed in templated sections beneath.
 
-##Usage
+**Usage**
 Simply embed the shortcode `[mobile_audit_form]` into any post content area, or HTML/Text widget.
 
-###Options
+**Options**
 
-####Debug output.
+**Debug output**
 Use the `debug="true"` option to show debug output in the browsers JavaScript console.
 E.g. `[mobile_audit_form debug="true"]`
 
-####Hiding Result Sections
+**Hiding Result Sections**
 You can hide the one or more of the following sections via shortcode attributes:
 
 * Overall: `[mobile_audit_form hide_overall="true"]`
@@ -126,6 +126,9 @@ Yes. Be sure to keep to the general DOM hierarchy, and preserve any CSS classes 
 
 == Changelog ==
 
+= 1.2 =
+* Fixed incorrect installation folder.
+
 = 1.1 =
 * Updated readme.txt and copied screenshot-1.png into /assets folder, instead of /trunk/assets.
 
@@ -133,3 +136,6 @@ Yes. Be sure to keep to the general DOM hierarchy, and preserve any CSS classes 
 * Initial plugin release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* This version fixes an installation bug.

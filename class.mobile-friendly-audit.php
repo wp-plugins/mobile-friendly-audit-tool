@@ -5,7 +5,7 @@
 		die;
 	}
 
-	define ( 'PLUGIN_SAFE_NAME_MOBILE_FRIENDLY_AUDIT', 'mobile-friendly-audit' );
+	define ( 'PLUGIN_SAFE_NAME_MOBILE_FRIENDLY_AUDIT', 'mobile-friendly-audit-tool' );
 
 	/**
 	 * Plugin Name: Mobile Friendly Audit
@@ -13,7 +13,7 @@
 	 * Description: A front-end widget that uses Google's PageSpeed APi to evaluate the performance and usability of
 	 * a given website
 	 * Author: Barry Jones <barry@onalldevices.com>
-	 * Version: 1.0
+	 * Version: 1.2
 	 * Author URI: http://onalldevices.com
 	 */
 	class Mobile_Friendly_Audit {
