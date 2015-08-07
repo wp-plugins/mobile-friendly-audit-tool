@@ -1,0 +1,138 @@
+/*
+	Styles for the Mobile Friendly Audit
+	Uses BEM naming standards
+*/
+@import "variables";
+
+/* Widget */
+.mfa{
+
+	/* Form */
+	.mfa__form{
+
+		fieldset{
+
+			border: 0 none;
+
+		}
+
+	}
+
+	/* Loader */
+	.mfa__loader{
+
+		padding: 1em;
+		font-size: 1.4em;
+
+		i.fa{
+			font-size: 1.8em;
+			margin-right: .3em;
+		}
+
+	}
+
+	/* Alerts */
+	.mfa__alert{
+
+		padding: 1em;
+		display: block;
+
+		&.mfa__alert--success{
+			color: $success;
+		}
+
+		&.mfa__alert--warning{
+			color: $warning;
+		}
+
+		&.mfa__alert--error{
+			color: $error;
+		}
+
+		.score{
+			font-weight: bold;
+		}
+
+	}
+
+	/* Results */
+	.mfa__results{
+
+		margin-top: .6em;
+		border-top: 1px solid $gray-light;
+
+		.mfa__results__section{
+
+			margin-top: .6em;
+			padding: .6em .6em 0 .6em;
+			border-top: 1px solid $gray-light;
+
+			&:last-of-type{
+				border-bottom: 1px solid $gray-light;
+				margin-bottom: .6em;
+				padding-bottom: .6em;
+			}
+
+			/* Results table */
+			.mfa__results__section__table{
+
+				width: 100%;
+
+				tr{
+					&.pass{
+						color: $pass;
+					}
+					&.warning{
+						color: $warning;
+					}
+					&.fail{
+						color: $error;
+					}
+				}
+
+				th{
+					white-space: nowrap;
+				}
+
+				th, td{
+
+					text-align: left;
+					border-bottom: 1px solid $gray-lighter;
+					padding: .3em;
+
+					&:first-of-type{
+						border-top: 1px solid $gray-lighter;
+					}
+
+					.fa{
+						margin-right: .6em;
+					}
+
+				}
+
+				td{
+					&.invisible{
+						visibility: hidden;
+						color: rgba(0, 0, 0, 0);
+					}
+				}
+
+			}
+
+			/* Result preview image */
+			.mfa__results__section__previewwrap{
+				img{
+					border: 1px solid $gray;
+					padding: 2px;
+					-webkit-box-shadow: 2px 2px 4px 2px $gray;
+					box-shadow: 2px 2px 4px 2px $gray;
+				}
+			}
+
+		}
+
+	}
+
+}
+
+
